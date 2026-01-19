@@ -38,6 +38,7 @@
     background-image:url("/assets/hero-bg.png");
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
     width: 100%;
     height: 600px;
     position: relative;
@@ -54,6 +55,7 @@
     background-color:rgba(26, 11, 46, 1); ;
     color: white;
     max-width: 1440px;
+    margin: 0 auto;
     width: 100%;
     height: 400px;
 
@@ -86,4 +88,45 @@
 }
 .about-item p{
     color: #ffffff;
+}
+/* episode */
+.episode{
+    border: 2px solid green;
+    background-color: #1A0B2E;
+    max-width: 1440px;
+    padding: 120px 120px;
+    margin: 0 auto;
+}
+.episode h2{
+    font-size: 48px;
+    font-weight: 600;
+}
+.episode-card{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.episode-info{
+    background-color: #250D44;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.episode-info h3{
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.episode h2{
+    color: #ffffff;
+    text-align: center;
+}
+.episode p{
+    font-size: 10px;
+    color: #4d4949;
+}
+.episode-info span{
+    color: #00FF88;
 }
